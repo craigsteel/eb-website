@@ -2,11 +2,14 @@
   position: relative;
   display: block;
 
+<<<<<<< HEAD
   /* Phones */
   @media only screen and (max-width : 480px) {
     display: none;
   }
 
+=======
+>>>>>>> ec4e382e052527760f45a3b6ea085e4265e550d6
   &__icons {
     padding: 2em 3em;
   }
@@ -25,6 +28,10 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ec4e382e052527760f45a3b6ea085e4265e550d6
 .banner {
   position: relative;
 
@@ -49,6 +56,7 @@
     }
   }
 
+<<<<<<< HEAD
   &__evlogo-small {
     margin-left: 32%;
     width: 35%;
@@ -72,6 +80,8 @@
     }
   }
 
+=======
+>>>>>>> ec4e382e052527760f45a3b6ea085e4265e550d6
   &__introdark {
     color: $color-white;
     font-family: Arvo;
@@ -101,6 +111,14 @@
     @media only screen and (max-width : 768px) {
       margin: 0 0.5em;
     }
+<<<<<<< HEAD
+=======
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+      // margin: 0 0.5em;
+    }
+>>>>>>> ec4e382e052527760f45a3b6ea085e4265e550d6
   }
 
   &__intro {
@@ -112,6 +130,7 @@
     @media only screen and (max-width : 768px) {
       margin: 0 0.5em;
     }
+<<<<<<< HEAD
   }
 }
 
@@ -121,3 +140,40 @@
   }
 }
 
+=======
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+      // margin: 0 0.5em;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+// @media only screen and (max-width : 768px) {
+//   .banner {
+//     // margin: 0 3em;
+
+//     &__evlogo {
+//       width: 92%;
+//       margin-top: -9%;
+//     }
+//   }
+// }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .top-icons {
+    display: none;
+  }
+
+  // .banner {
+  //   // margin: 120px 0 0 0;
+
+  //   &__evlogo {
+  //     width: 92%;
+  //     margin-top: 4em;
+  //   }
+  // }
+}
+>>>>>>> ec4e382e052527760f45a3b6ea085e4265e550d6
